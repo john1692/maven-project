@@ -12,9 +12,9 @@ public class Greeter {
   }
 
   /**
-  *@param tag for 'someone'
-  *@return tag
-  */
+   * @param someone the name of person
+   * @return tag
+   */
   public final String greet(final String someone) {
     return String.format("Hello, %s!", someone);
   }
