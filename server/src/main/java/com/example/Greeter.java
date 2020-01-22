@@ -15,7 +15,8 @@ public class Greeter {
   * 
   * 
   */
-  public final String greet(final String someone) {
+  /**{@inheritDoc}*/
+  public int String greet(final String someone) {
     return String.format("Hello, %s!", someone);
   }
 }
